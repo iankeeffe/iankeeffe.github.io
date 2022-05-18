@@ -1,0 +1,30 @@
+html 
+{ 
+    background: Black; 
+    font: 14px/19px  "Helvetica", "Arial", sans-serif;
+} 
+.reg
+{
+    
+    background-color: black;
+    color: gray;
+    text-align: center;
+    padding-top: 50px;
+}
+#nav
+{
+    width: 70%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: large;
+    background-color: #1DB954;
+    font-family: 'Gotham', sans-serif;
+}
+#outer
+{
+    background-color: black;
+}
+iframe
+{
+    width: 70%;
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Ian's Music</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+
+    </style>
+
+    <!-- CSS -->
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+      <div id="outer">
+      <div class="container-fluid" id="nav">
+        <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">Ian's Music</a>
+                <a class="navbar-brand" href="#" id="mode" style="color: #505050;">Dark Mode</a>
+                <span class="hidden">Bootstrap</span>
+            <button
+            	class="navbar-toggler"
+            	type="button"
+            	data-bs-toggle="collapse"
+            	data-bs-target="#toggleMobileMenu"
+            	aria-controls="toggleMobileMenu"
+            	aria-expanded="false"
+            	aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+
+                <ul class="navbar-nav ms-auto text-center">
+                    <li>
+                        <a class="nav-link" href="modern.html">Modern</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="old.html">Old</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="bluegrass.html">Bluegrass</a>
+                    </li>
+                </ul>
+
+
+            </div>
+            
+        </nav>
+    </div>
+    </div>
+    
+    <div class="reg" id="reg">
+        <h1>Home</h1>
+        <p>Here's a collection of a lot of songs that I really like right now. </p>
+
+        <p>I split it up into 3 main categories. New music, old music, and bluegrass.</p>
+
+        <p>Navagate the page by clicking the links above in the navigation bar.</p>
+    </div>
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
